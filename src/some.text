@@ -1,0 +1,87 @@
+
+
+
+Ищем ошибки в коде
+
+
+ 1) private static void  fun() {};
+
+
+
+2)
+
+public class TestClass {
+    private String name;
+
+ }
+
+public class CheckTestClass {
+
+    public static void main(String... args) {
+           var test = new TestClass();
+           System.out.println(test.name);
+    }
+
+ }
+
+3)
+
+public class A {  //
+
+    public static void printA() {
+        System.out.println("A");
+    }
+
+}
+
+
+public class Main {
+
+    public static void main(String... args) {
+               A.printA();
+        }
+
+}
+
+
+4)
+public class TestClass {
+
+    private String name;
+
+    public static void main(String... args) {
+               TestClass test = new TestClass();
+               System.out.println(test.name);
+        }
+ }
+
+
+do {
+// 1 итерация выполнилась
+} while (1 < 0)
+for(;;);
+for(int i = 0; i < 5; i++) {
+//action arr[i] = arr[i] * 2;
+}
+//arr list collection
+int[] arrInt = new int[5];  [0][1][2][3][4]
+int counter = 0;
+for (int x : arrInt) {
+//some action sout(x);
+arr[counter] = arr[counter] * 3;
+counter++;
+}
+int counter = 0;
+while(counter < 5) {
+arr[counter] = arr[counter] * 3;
+counter++;
+}
+
+
+
+
+
+
+
+
+
